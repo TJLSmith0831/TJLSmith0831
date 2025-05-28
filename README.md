@@ -1,5 +1,5 @@
 ![Header](./github-header-image.png)
-### A Data Scientist & Full-Stack Engineer crafting scalable, elegant solutions that bridge intuitive UX with powerful backend systems. Passionate about turning complex problems into clean, efficient code.
+### A Full-Stack Engineer & Data Scientist crafting scalable, elegant solutions that bridge intuitive UX with powerful backend systems. Passionate about turning complex problems into clean, efficient code.
 <br>
 
 - 🔭 I currently work at **[PILYTIX](https://pilytix.ai/)**, where I lead full-stack development and data science initiatives to power predictive models and CDP-driven marketing solutions for major sports teams, university foundations, and live entertainment venues. My work spans scalable infrastructure, custom lead scoring algorithms, and AI-powered engagement tools
