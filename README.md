@@ -6,7 +6,7 @@
 
 - 🌱 Always learning — pursuing MongoDB Associate Developer (Python & Node.js) and AWS Cloud Practitioner certifications
 
-- 📜 Certified in Docker Foundations, Tableau Desktop Specialist, Microsoft Excel Expert, Julia & R Programming, Big Data SQL, and full-stack web technologies including TypeScript, React, and JavaScript
+- 📜 Certified in Docker Foundations, Tableau Desktop Specialist, Microsoft Excel Expert, Julia & R Programming, Big Data SQL, TypeScript, React, and JavaScript
   
 - 💬 Ask me about **React, TypeScript, Python, or building full-stack systems from scratch**
   
