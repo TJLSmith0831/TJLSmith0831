@@ -5,6 +5,8 @@
 - 🔭 I currently work at **[PILYTIX](https://pilytix.ai/)**, where I lead full-stack development and data science initiatives to power predictive models and CDP-driven marketing solutions for major sports teams, university foundations, and live entertainment venues. My work spans scalable infrastructure, custom lead scoring algorithms, and AI-powered engagement tools
 
 - 🌱 Always learning — pursuing MongoDB Associate Developer (Python & Node.js) and AWS Cloud Practitioner certifications
+
+- 📜 Certified in Docker Foundations, Tableau Desktop Specialist, Microsoft Excel Expert, Julia & R Programming, Big Data SQL, and full-stack web technologies including TypeScript, React, and JavaScript
   
 - 💬 Ask me about **React, TypeScript, Python, or building full-stack systems from scratch**
   
