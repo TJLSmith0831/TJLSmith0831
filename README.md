@@ -34,8 +34,8 @@
 <br>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,react,figma,r,python,postgres,tailwind" />
+  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,react,r,python,postgres,mongodb,tailwind,redux" />
   <br>
-  <img src="https://skillicons.dev/icons?i=html,css,redux,git,julia,nextjs,mongodb,aws,gcp,firebase" />
+  <img src="https://skillicons.dev/icons?i=html,css,git,julia,nextjs,docker,figma,aws,gcp,firebase" />
 </p>
 
