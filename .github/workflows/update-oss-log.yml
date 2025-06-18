@@ -40,4 +40,5 @@ jobs:
           git commit -m "chore: update OSS work log" || echo "No changes"
 
           # Force HTTPS push with Personal Access Token
-          git push https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+          git push "https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository }}" HEAD:main
+
