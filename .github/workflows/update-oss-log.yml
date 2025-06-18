@@ -1,0 +1,34 @@
+name: Update OSS Log
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"  # Every Monday at noon
+  workflow_dispatch:
+
+jobs:
+  update-log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install @octokit/rest
+
+      - name: Generate OSS Log
+        run: node generateLog.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add OSS_WORKLOG.md
+          git commit -m "chore: update OSS work log" || echo "No changes"
+          git push
