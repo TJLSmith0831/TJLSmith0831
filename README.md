@@ -40,8 +40,7 @@
 
 ### 🌍 OSS Contributions
 
-I maintain a running [Open Source Work Log](./OSS_WORKLOG.md) that's automatically updated via GitHub Actions.  
-Check it out to see where I’ve been making an impact.
+View my ongoing [Open Source Contributions](./CONTRIBUTIONS.md)
 
 <hr>
 
