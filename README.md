@@ -37,6 +37,12 @@
 
 ![[Full-Year Calendar](https://github.comTJLSmith0831/metrics/metrics.plugin.isocalendar.fullyear.svg)](https://raw.githubusercontent.com/TJLSmith0831/metrics/refs/heads/master/metrics.plugin.isometric.svg) ![[Isometric](https://github.com/TJLSmith0831/metrics/metrics.plugin.isometric.svg)](https://raw.githubusercontent.com/TJLSmith0831/metrics/refs/heads/master/metrics.plugin.isocalendar.fullyear.svg)
 
+
+### 🌍 OSS Contributions
+
+I maintain a running [Open Source Work Log](./OSS_WORKLOG.md) that's automatically updated via GitHub Actions.  
+Check it out to see where I’ve been making an impact.
+
 <hr>
 
 ## 🛠️ Languages and Tools
