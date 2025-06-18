@@ -3,7 +3,7 @@ import fs from "fs";
 import { Octokit } from "@octokit/rest";
 import prs from "./prs.json" assert { type: "json" };
 
-const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+const octokit = new Octokit({ auth: process.env.PERSONAL_TOKEN });
 
 async function fetchPRInfo(url) {
   const [, , , owner, repo, , number] = url.split("/");
