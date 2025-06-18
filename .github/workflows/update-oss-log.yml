@@ -30,7 +30,13 @@ jobs:
           git config user.name "TJLSmith0831"
           git config user.email "tjlsmith0831@gmail.com"
           git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository }}
+      
+          # Debug info
+          git remote -v
+          git config --get user.name
+          git config --get user.email
+          git status
+      
           git add OSS_WORKLOG.md
           git commit -m "chore: update OSS work log" || echo "No changes"
           git push
-
