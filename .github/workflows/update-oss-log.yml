@@ -23,12 +23,14 @@ jobs:
       - name: Generate OSS Log
         run: node generateLog.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Commit & Push
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "TJLSmith0831"
+          git config user.email "tjlsmith0831@gmail.com"
+          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository }}
           git add OSS_WORKLOG.md
           git commit -m "chore: update OSS work log" || echo "No changes"
           git push
+
