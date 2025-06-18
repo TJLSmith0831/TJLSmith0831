@@ -23,7 +23,7 @@ jobs:
       - name: Generate OSS Log
         run: node generateLog.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 
       - name: Commit & Push
         run: |
