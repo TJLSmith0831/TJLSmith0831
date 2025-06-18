@@ -1,6 +1,7 @@
-const fs = require("fs");
-const { Octokit } = require("@octokit/rest");
-const prs = require("./prs.json");
+// generateLog.mjs
+import fs from "fs";
+import { Octokit } from "@octokit/rest";
+import prs from "./prs.json" assert { type: "json" };
 
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
