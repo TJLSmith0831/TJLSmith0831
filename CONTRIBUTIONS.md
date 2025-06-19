@@ -11,4 +11,4 @@ A curated log of my contributions to open-source projects. This includes documen
 - **Issue:** [#35078](https://github.com/supabase/supabase/issues/35078)
 - **Summary:** Updated misleading docs in the declarative database schema section to clarify manual migration behavior.
 - **Type:** 📝 Documentation
-- **Status:** ⏳ Open
+- **Status:** ✅ Merged
